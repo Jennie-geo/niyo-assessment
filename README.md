@@ -58,7 +58,7 @@ GET: http://127.0.0.1:3000/tasks
 GET: http://127.0.0.1:3000/tasks/:id
 
 ### Update Task By Id
-PATCH: http://127.0.0.1:3000/tasks/8/status
+PATCH: http://127.0.0.1:3000/tasks/:id/status
 
 {
     "status": "in_progress" | 'done'
